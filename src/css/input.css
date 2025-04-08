@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* Fonts */
+@font-face {
+	font-family: "GeneralSans";
+	src: url("../fonts/GeneralSans-Medium.otf") format("opentype");
+	font-weight: 500; /* Medium */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "GeneralSans";
+	src: url("../fonts/GeneralSans-Regular.otf") format("opentype");
+	font-weight: 400; /* Regular */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "GeneralSans";
+	src: url("../fonts/GeneralSans-Semibold.otf") format("opentype");
+	font-weight: 600; /* Semibold */
+	font-style: normal;
+}
+
+/* Variables */
+@theme {
+	/* Container */
+	--container-padding: 0 16px;
+	--container-max-width: 1394px;
+
+	/* Fonts */
+	--font-poppins: "Poppins", sans-serif;
+	--font-generalSans: "GeneralSans", sans-serif;
+
+	/* Colors */
+	--color-green-400: #00ba00;
+	--color-green-800: #1b4040;
+	--color-green-900: #072929;
+
+	--color-gray-500: #5c616c;
+}
+
+/* Container max-width & paddings */
+@utility container {
+	@apply mx-auto max-w-[var(--container-max-width)] p-[var(--container-padding)];
+}
+@layer base {
+	body {
+		@apply font-poppins;
+	}
+	h1 {
+		@apply text-6xl leading-[1.03] font-light tracking-[-1.22px] text-[#F0F3F9] max-lg:text-5xl max-sm:text-3xl max-sm:leading-tight;
+	}
+}
+
+@layer components {
+	.btn {
+		@apply flex max-w-fit rounded-[10px] px-[26px] py-[18px] leading-none font-medium text-white transition-colors max-md:px-6 max-md:py-4;
+	}
+}
+
+@layer utilities {
+	/* Mobile Menu With Drawer */
+	.mobile-menu.open {
+		@apply left-0;
+	}
+	/* Btn */
+	.btn.btn-primary {
+		@apply bg-green-400 hover:bg-green-400/80;
+	}
+	.btn.btn-ghost {
+		@apply bg-green-800 hover:bg-green-800/50;
+	}
+	.btn.btn-secondary {
+		@apply bg-white text-black hover:bg-white/80;
+	}
+}

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en" class="h-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/output.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="relative h-full">
+		<div class="wrapper flex min-h-full flex-col">
+			<!-- Hero Wrapper -->
+			<!-- 113deg, #072929 7.84%, #072929 93.91% -->
+			<div class="container">
+				<div
+					class="rounded-3xl bg-linear-[113deg,#072929_7.84%,#072929_93.91%] p-10 max-md:px-5 max-md:py-7"
+				>
+					<div class="mx-auto w-full max-w-[1108px]">
+						<!-- Header-->
+						<header>
+							<div class="flex items-center gap-5">
+								<a href=" #">
+									<img
+										class="max-lg:max-w-[130px]"
+										src="./images/logo.png"
+										alt="logo"
+									/>
+								</a>
+								<!-- Desktop menu -->
+								<nav id="menu" class="z-10 ml-10 flex max-md:hidden">
+									<ul class="flex items-center gap-9 max-md:gap-5">
+										<!-- Menu Item -->
+										<li>
+											<a
+												href="#"
+												class="relative font-medium tracking-[0.16px] text-white after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:scale-0 after:bg-white after:transition-all hover:after:scale-100"
+											>
+												Documentation
+											</a>
+										</li>
+										<li>
+											<a
+												href="#"
+												class="relative font-medium tracking-[0.16px] text-white after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:scale-0 after:bg-white after:transition-all hover:after:scale-100"
+											>
+												Pricing
+											</a>
+										</li>
+									</ul>
+								</nav>
+
+								<!-- Action buttons -->
+								<div class="ml-auto flex items-center gap-6 max-md:hidden">
+									<a href="#" class="btn btn-ghost">LogIn</a>
+									<a href="#" class="btn btn-secondary">Sign Up</a>
+								</div>
+
+								<!--  Mobile menu -->
+								<div
+									id="mobile-menu"
+									class="mobile-menu group fixed top-0 -left-full z-20 h-full w-full bg-black/70"
+								>
+									<div
+										class="flex h-full w-0 flex-col space-y-4 divide-y divide-gray-200 overflow-auto bg-white p-6 transition-all duration-300 group-[.open]:w-[80%]"
+									>
+										<a href="#">LOGO</a>
+
+										<nav class="flex-1">
+											<ul class="divide-y divide-gray-200">
+												<li class="py-4">
+													<a
+														href="#"
+														class="menu-link text-xl text-black hover:text-current"
+													>
+														Features
+													</a>
+												</li>
+												<li class="py-4">
+													<a
+														href="#"
+														class="menu-link text-xl text-black hover:text-current"
+													>
+														Pricing
+													</a>
+												</li>
+
+												<!-- Menu Item With Submenu -->
+												<li
+													class="with-submenu menu-link group relative py-4 text-xl text-black hover:text-current"
+												>
+													<div class="flex flex-col gap-2">
+														<!-- Submenu Trigger -->
+														<button
+															class="submenu-trigger flex items-center justify-between gap-2"
+														>
+															<span class="pointer-events-none">More</span>
+															<svg
+																width="24"
+																height="24"
+																viewBox="0 0 24 24"
+																fill="none"
+																class="pointer-events-none transition-transform group-[.active]:rotate-180"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<path
+																	d="M7 10L12 15L17 10"
+																	stroke="#121826"
+																	stroke-opacity="1"
+																	stroke-width="3"
+																	stroke-linecap="round"
+																	stroke-linejoin="round"
+																/>
+															</svg>
+														</button>
+
+														<!-- Submenu Content -->
+														<div
+															class="submenu grid grid-rows-[0fr] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+														>
+															<div class="overflow-hidden">
+																<ul class="space-y-2">
+																	<li>
+																		<a
+																			href="#"
+																			class="flex px-4 py-2 text-lg hover:text-black"
+																		>
+																			Survey settings
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="#"
+																			class="flex px-4 py-2 text-lg hover:text-black"
+																		>
+																			Custom domain
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="#"
+																			class="flex px-4 py-2 text-lg hover:text-black"
+																		>
+																			Company details
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="#"
+																			class="flex px-4 py-2 text-lg hover:text-black"
+																		>
+																			Manage team
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="#"
+																			class="flex px-4 py-2 text-lg hover:text-black"
+																		>
+																			Join team link
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="#"
+																			class="flex px-4 py-2 text-lg hover:text-black"
+																		>
+																			Plans
+																		</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+
+								<!-- Burger Button -->
+								<button
+									id="burger"
+									class="group relative z-20 hidden h-5 w-[30px] max-md:ml-auto max-md:block"
+								>
+									<span
+										class="absolute top-0 left-0 flex h-[2px] w-[30px] bg-white transition-transform group-[.active]:translate-y-2 group-[.active]:rotate-45 group-[.active]:bg-white"
+									></span>
+									<span
+										class="absolute top-1/2 left-0 flex h-[2px] w-[30px] translate-x-0 -translate-y-1/2 bg-white transition-transform group-[.active]:opacity-0"
+									></span>
+									<span
+										class="absolute bottom-0 left-0 flex h-[2px] w-[30px] bg-white transition-transform group-[.active]:-translate-y-[10px] group-[.active]:-rotate-45 group-[.active]:bg-white"
+									></span>
+								</button>
+							</div>
+						</header>
+
+						<!-- Hero -->
+						<section class="mt-[150px] max-lg:mt-0">
+							<div
+								class="flex justify-between gap-5 max-lg:flex-col max-lg:gap-10"
+							>
+								<!-- Left Side -->
+								<div class="w-full max-w-[510px] pt-[70px] max-lg:max-w-full">
+									<h1>The privacy first&nbsp;captcha that just works</h1>
+									<p
+										class="mt-8 text-lg leading-[1.44] text-[#F0F5FC] max-lg:mt-5"
+									>
+										Protect your forms and APIs from abuse with user friendly,
+										GDPR-compliant security that integrates seamlessly with your
+										existing tech stack.
+									</p>
+									<a href="#" class="btn btn-primary mt-10 max-lg:mt-6">
+										Start free trial
+									</a>
+								</div>
+
+								<!-- Right side -->
+								<div
+									class="relative flex h-full w-full max-w-[571px] translate-x-6 flex-col items-center justify-center bg-[url(../images/large-shield.svg)] bg-contain bg-center bg-no-repeat pt-[125px] pb-[150px] max-lg:max-w-full max-lg:translate-x-0 max-sm:bg-transparent max-sm:py-0"
+								>
+									<ul
+										class="flex gap-2.5 max-[1200px]:flex-wrap max-[1200px]:justify-center"
+									>
+										<li
+											class="flex max-w-fit shrink-0 items-center gap-1 rounded-full border border-[#0c3b88]/20 bg-white px-[14px] py-2.5 max-[420px]:w-full max-[420px]:max-w-full max-[420px]:justify-center"
+										>
+											<img src="./images/eu-icon.png" alt="icon" />
+											<p class="font-generalSans font-medium text-[#404240]">
+												<span class="font-semibold text-[#040404]">GDPR</span>
+												Compliant
+											</p>
+										</li>
+
+										<li
+											class="flex max-w-fit shrink-0 items-center gap-1 rounded-full border border-[#0c3b88]/20 bg-white px-[14px] py-2.5 max-[420px]:w-full max-[420px]:max-w-full max-[420px]:justify-center"
+										>
+											<img src="./images/privacy-icon.png" alt="icon" />
+											<p class="font-generalSans font-medium text-[#404240]">
+												<span class="font-semibold text-[#040404]">
+													Privacy-
+												</span>
+												first
+											</p>
+										</li>
+
+										<li
+											class="flex max-w-fit shrink-0 items-center gap-1 rounded-full border border-[#0c3b88]/20 bg-white px-[14px] py-2.5 max-[420px]:w-full max-[420px]:max-w-full max-[420px]:justify-center"
+										>
+											<img src="./images/pen-icon.png" alt="icon" />
+											<p class="font-generalSans font-medium text-[#404240]">
+												<span class="font-semibold text-[#040404]">User-</span>
+												friendly
+											</p>
+										</li>
+									</ul>
+
+									<div
+										class="mt-16 flex w-full max-w-[446px] items-center justify-between rounded-xl bg-white px-7 py-[18px] shadow-sm max-sm:mt-10"
+									>
+										<label
+											class="relative flex cursor-pointer items-center gap-4 text-sm text-[21px] font-medium tracking-[-0.21px] text-[#615D5D]"
+										>
+											<!-- Кастомный визуальный элемент checkbox -->
+											<span
+												class="absolute -top-[6px] -left-[6px] z-0 flex size-11 cursor-pointer items-center justify-center rounded border-2 border-black/20 bg-[#F2F2F2] accent-green-800 transition-all duration-200 ease-in-out"
+											>
+												<!-- Иконка галочки (появляется при checked) -->
+											</span>
+											<!-- Скрытый стандартный checkbox -->
+											<input
+												type="checkbox"
+												class="peer sr-only"
+												id="customCheckbox"
+											/>
+											<svg
+												class="z-10 opacity-0 transition-opacity duration-200 peer-checked:opacity-100"
+												width="32"
+												height="32"
+												viewBox="0 0 32 32"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M13.2704 27.1968C12.5744 27.1968 11.9152 26.872 11.4928 26.312L5.77604 18.7584C5.59889 18.5253 5.46951 18.2595 5.39532 17.9762C5.32114 17.693 5.30361 17.3979 5.34375 17.1079C5.38389 16.8179 5.4809 16.5386 5.62921 16.2862C5.77753 16.0337 5.97424 15.813 6.20804 15.6368C6.44125 15.4591 6.70729 15.3294 6.99084 15.2549C7.2744 15.1804 7.56988 15.1628 7.86029 15.2029C8.15069 15.2431 8.4303 15.3402 8.68302 15.4888C8.93573 15.6374 9.15658 15.8345 9.33284 16.0688L13.0944 21.0352L22.552 5.848C22.8657 5.34656 23.3654 4.98999 23.9416 4.85652C24.5178 4.72304 25.1234 4.82355 25.6256 5.136C26.6704 5.7856 26.992 7.1616 26.3392 8.208L15.1648 26.144C14.9741 26.4516 14.7112 26.7079 14.3989 26.8908C14.0866 27.0737 13.7344 27.1777 13.3728 27.1936L13.2704 27.1968Z"
+													fill="#072929"
+												/>
+											</svg>
+
+											<!-- Текст лейбла -->
+											<span
+												class="text-[21px] leading-none font-medium tracking-[-0.21px] text-[#615D5D] select-none max-sm:text-lg"
+											>
+												Click to verify
+											</span>
+										</label>
+
+										<div>
+											<img
+												class="max-sm:w-12"
+												src="./images/logo-black-vertical.png"
+												alt="logo"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!-- Main Content -->
+			<main class="flex-auto">
+				<div class="container mt-20"></div>
+			</main>
+
+			<!-- Footer -->
+			<footer class="flex h-40 items-center justify-center bg-slate-300">
+				FOOTER
+			</footer>
+		</div>
+
+		<!-- JS -->
+		<script src="./js/main.js"></script>
+	</body>
+</html>
