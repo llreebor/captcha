@@ -55,7 +55,7 @@
 
 @layer components {
 	.btn {
-		@apply flex max-w-fit rounded-[10px] px-[26px] py-[18px] leading-none font-medium text-white transition-colors max-md:px-6 max-md:py-4;
+		@apply flex max-w-fit shrink-0 justify-center rounded-[10px] px-[26px] py-[18px] text-center leading-none font-medium text-white transition-colors max-md:px-6 max-md:py-4;
 	}
 }
 

@@ -16,7 +16,6 @@
 	<body class="relative h-full">
 		<div class="wrapper flex min-h-full flex-col">
 			<!-- Hero Wrapper -->
-			<!-- 113deg, #072929 7.84%, #072929 93.91% -->
 			<div class="container">
 				<div
 					class="rounded-3xl bg-linear-[113deg,#072929_7.84%,#072929_93.91%] p-10 max-md:px-5 max-md:py-7"
@@ -67,119 +66,48 @@
 									class="mobile-menu group fixed top-0 -left-full z-20 h-full w-full bg-black/70"
 								>
 									<div
-										class="flex h-full w-0 flex-col space-y-4 divide-y divide-gray-200 overflow-auto bg-white p-6 transition-all duration-300 group-[.open]:w-[80%]"
+										class="flex h-full w-0 flex-col space-y-4 divide-y divide-gray-100/50 overflow-auto bg-green-900 p-6 transition-all duration-300 group-[.open]:w-[80%]"
 									>
-										<a href="#">LOGO</a>
+										<a href="#" class="pb-6">
+											<img
+												class="max-w-[130px]"
+												src="./images/logo.png"
+												alt="logo"
+											/>
+										</a>
 
 										<nav class="flex-1">
 											<ul class="divide-y divide-gray-200">
 												<li class="py-4">
 													<a
 														href="#"
-														class="menu-link text-xl text-black hover:text-current"
+														class="menu-link text-xl font-medium text-white hover:text-current"
 													>
-														Features
+														Documentstion
 													</a>
 												</li>
 												<li class="py-4">
 													<a
 														href="#"
-														class="menu-link text-xl text-black hover:text-current"
+														class="menu-link text-xl font-medium text-white hover:text-current"
 													>
 														Pricing
 													</a>
 												</li>
-
-												<!-- Menu Item With Submenu -->
-												<li
-													class="with-submenu menu-link group relative py-4 text-xl text-black hover:text-current"
-												>
-													<div class="flex flex-col gap-2">
-														<!-- Submenu Trigger -->
-														<button
-															class="submenu-trigger flex items-center justify-between gap-2"
-														>
-															<span class="pointer-events-none">More</span>
-															<svg
-																width="24"
-																height="24"
-																viewBox="0 0 24 24"
-																fill="none"
-																class="pointer-events-none transition-transform group-[.active]:rotate-180"
-																xmlns="http://www.w3.org/2000/svg"
-															>
-																<path
-																	d="M7 10L12 15L17 10"
-																	stroke="#121826"
-																	stroke-opacity="1"
-																	stroke-width="3"
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																/>
-															</svg>
-														</button>
-
-														<!-- Submenu Content -->
-														<div
-															class="submenu grid grid-rows-[0fr] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
-														>
-															<div class="overflow-hidden">
-																<ul class="space-y-2">
-																	<li>
-																		<a
-																			href="#"
-																			class="flex px-4 py-2 text-lg hover:text-black"
-																		>
-																			Survey settings
-																		</a>
-																	</li>
-																	<li>
-																		<a
-																			href="#"
-																			class="flex px-4 py-2 text-lg hover:text-black"
-																		>
-																			Custom domain
-																		</a>
-																	</li>
-																	<li>
-																		<a
-																			href="#"
-																			class="flex px-4 py-2 text-lg hover:text-black"
-																		>
-																			Company details
-																		</a>
-																	</li>
-																	<li>
-																		<a
-																			href="#"
-																			class="flex px-4 py-2 text-lg hover:text-black"
-																		>
-																			Manage team
-																		</a>
-																	</li>
-																	<li>
-																		<a
-																			href="#"
-																			class="flex px-4 py-2 text-lg hover:text-black"
-																		>
-																			Join team link
-																		</a>
-																	</li>
-																	<li>
-																		<a
-																			href="#"
-																			class="flex px-4 py-2 text-lg hover:text-black"
-																		>
-																			Plans
-																		</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</li>
 											</ul>
 										</nav>
+
+										<!-- Action buttons -->
+										<div
+											class="mt-auto mb-10 flex w-full flex-col items-center gap-6"
+										>
+											<a href="#" class="btn btn-ghost w-full max-w-full">
+												LogIn
+											</a>
+											<a href="#" class="btn btn-secondary w-full max-w-full">
+												Sign Up
+											</a>
+										</div>
 									</div>
 								</div>
 
@@ -225,6 +153,7 @@
 								<div
 									class="relative flex h-full w-full max-w-[571px] translate-x-6 flex-col items-center justify-center bg-[url(../images/large-shield.svg)] bg-contain bg-center bg-no-repeat pt-[125px] pb-[150px] max-lg:max-w-full max-lg:translate-x-0 max-sm:bg-transparent max-sm:py-0"
 								>
+									<!-- List -->
 									<ul
 										class="flex gap-2.5 max-[1200px]:flex-wrap max-[1200px]:justify-center"
 									>
@@ -261,19 +190,31 @@
 										</li>
 									</ul>
 
+									<!-- Checkbox & Logo & Vector Lines -->
 									<div
-										class="mt-16 flex w-full max-w-[446px] items-center justify-between rounded-xl bg-white px-7 py-[18px] shadow-sm max-sm:mt-10"
+										class="relative mt-16 flex w-full max-w-[446px] items-center justify-between rounded-xl bg-white px-7 py-[18px] shadow-sm max-sm:mt-10"
 									>
+										<img
+											class="absolute -top-[90px] left-[106px] -z-10 max-[1200px]:hidden max-lg:block max-sm:hidden"
+											src="./images/vector-1.svg"
+											alt="image"
+										/>
+										<img
+											class="absolute -top-[90px] left-[196px] -z-10 max-[1200px]:hidden max-lg:block max-sm:hidden"
+											src="./images/vector-2.svg"
+											alt="image"
+										/>
+										<img
+											class="absolute -top-[90px] right-9 -z-10 max-[1200px]:hidden max-lg:block max-sm:hidden"
+											src="./images/vector-3.svg"
+											alt="image"
+										/>
 										<label
 											class="relative flex cursor-pointer items-center gap-4 text-sm text-[21px] font-medium tracking-[-0.21px] text-[#615D5D]"
 										>
-											<!-- Кастомный визуальный элемент checkbox -->
 											<span
 												class="absolute -top-[6px] -left-[6px] z-0 flex size-11 cursor-pointer items-center justify-center rounded border-2 border-black/20 bg-[#F2F2F2] accent-green-800 transition-all duration-200 ease-in-out"
-											>
-												<!-- Иконка галочки (появляется при checked) -->
-											</span>
-											<!-- Скрытый стандартный checkbox -->
+											></span>
 											<input
 												type="checkbox"
 												class="peer sr-only"
@@ -310,6 +251,38 @@
 										</div>
 									</div>
 								</div>
+							</div>
+
+							<!-- Partners -->
+							<div class="max-sm:mt-10">
+								<p
+									class="text-center text-sm font-semibold tracking-[3.64px] text-white/60 uppercase"
+								>
+									World-leading organizations trust us
+								</p>
+
+								<ul
+									class="mt-12 flex items-center justify-between gap-5 max-sm:mt-8 max-sm:flex-wrap max-sm:justify-center"
+								>
+									<li>
+										<img src="./images/partner-1.png" alt="partner image" />
+									</li>
+									<li>
+										<img src="./images/partner-2.png" alt="partner image" />
+									</li>
+									<li>
+										<img src="./images/partner-3.png" alt="partner image" />
+									</li>
+									<li>
+										<img src="./images/partner-4.png" alt="partner image" />
+									</li>
+									<li>
+										<img src="./images/partner-5.png" alt="partner image" />
+									</li>
+									<li>
+										<img src="./images/partner-6.png" alt="partner image" />
+									</li>
+								</ul>
 							</div>
 						</section>
 					</div>
