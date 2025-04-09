@@ -56,8 +56,8 @@
 
 								<!-- Action buttons -->
 								<div class="ml-auto flex items-center gap-6 max-md:hidden">
-									<a href="#" class="btn btn-ghost">LogIn</a>
-									<a href="#" class="btn btn-secondary">Sign Up</a>
+									<a href="#" class="btn btn-secondary">Log In</a>
+									<a href="#" class="btn btn-neutral">Sign Up</a>
 								</div>
 
 								<!--  Mobile menu -->
@@ -101,10 +101,10 @@
 										<div
 											class="mt-auto mb-10 flex w-full flex-col items-center gap-6"
 										>
-											<a href="#" class="btn btn-ghost w-full max-w-full">
+											<a href="#" class="btn btn-secondary w-full max-w-full">
 												LogIn
 											</a>
-											<a href="#" class="btn btn-secondary w-full max-w-full">
+											<a href="#" class="btn btn-neutral w-full max-w-full">
 												Sign Up
 											</a>
 										</div>
@@ -606,7 +606,9 @@
 				<!-- Simple pricing -->
 				<section>
 					<div class="container">
-						<div class="rounded-[50px] bg-gray-100 p-20 max-md:p-10">
+						<div
+							class="rounded-[50px] bg-[url('../images/pricing-bg.png')] bg-cover bg-center bg-no-repeat p-20 max-md:p-10 max-sm:px-5 max-sm:py-8"
+						>
 							<h2 class="text-center">Simple pricing</h2>
 
 							<!-- Switch -->
@@ -647,7 +649,7 @@
 											Yearly
 										</span>
 										<span
-											class="rounded-[5px] border border-[#00BA00] px-2 py-px font-medium text-[#00BA00]"
+											class="rounded-[5px] border border-[#00BA00] px-2 py-px font-medium text-[#00BA00] max-[430px]:hidden"
 										>
 											1 month free
 										</span>
@@ -656,9 +658,233 @@
 							</div>
 
 							<!-- Price Blocks -->
-							<div class="mx-auto mt-6 grid max-w-[850px] grid-cols-2 gap-5">
-								<div>1</div>
-								<div>2</div>
+							<div
+								class="mx-auto mt-6 grid max-w-[850px] grid-cols-2 gap-5 max-lg:grid-cols-1"
+							>
+								<!-- Left Block -->
+								<div
+									class="rounded-[25px] border border-[#E8E9E8] bg-white p-9 max-sm:p-5"
+								>
+									<!-- Title -->
+									<div>
+										<p
+											class="font-generalSans text-[30px] font-semibold tracking-[-0.3px] text-gray-900 max-sm:text-2xl"
+										>
+											€5 / month
+											<span
+												class="ml-4 text-base font-normal text-[#6B6B6B] max-sm:ml-0 max-sm:block"
+											>
+												billed per year
+											</span>
+										</p>
+									</div>
+
+									<!-- Requests -->
+									<div
+										class="mt-4 flex w-full max-w-[284px] items-center gap-2.5 rounded-full border border-[#E5E5E5] p-[6px]"
+									>
+										<button class="size-[25px] cursor-pointer">
+											<img src="./images/left-arrow-btn.svg" alt="arrow" />
+										</button>
+										<p
+											class="text-xl leading-0 font-medium text-[#A9A9A9] max-[380px]:text-base"
+										>
+											<span class="text-[#312F2F]">5,000</span>
+											requests
+										</p>
+										<button class="ml-auto size-[25px] cursor-pointer">
+											<img src="./images/right-arrow-btn.svg" alt="arrow" />
+										</button>
+									</div>
+
+									<!-- List -->
+									<ul class="mt-11 space-y-3 max-sm:mt-8">
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Privacy-first protection
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Easy integration
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												No cookie banners required
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												User-friendly
+											</p>
+										</li>
+									</ul>
+
+									<!-- Buttons -->
+									<div
+										class="mt-12 flex max-sm:mt-8 max-sm:flex-col max-sm:gap-4"
+									>
+										<a href="#" class="btn btn-secondary max-sm:max-w-full">
+											Start free trial
+										</a>
+										<a href="#" class="btn btn-link max-sm:max-w-full">
+											Cancel anytime
+										</a>
+									</div>
+								</div>
+
+								<!-- Right Block -->
+								<div
+									class="rounded-[25px] border border-[#E8E9E8] bg-[#EFF1EF] p-9 max-sm:p-5"
+								>
+									<!-- Title -->
+									<p
+										class="text-[30px] font-semibold text-gray-900 max-sm:text-2xl"
+									>
+										Included in
+										<i>each</i>
+										plan
+									</p>
+
+									<!-- List -->
+									<ul class="mt-11 space-y-3 max-sm:mt-8">
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Smart difficulty scaling
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												EU-only endpoints
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Real human support
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Up to 50 properties
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Usage statistics
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Widget customization
+											</p>
+										</li>
+										<li class="flex gap-3">
+											<div class="shrink-0">
+												<img
+													class="max-md:size-6"
+													src="./images/check-outline.png"
+													alt="check icon"
+												/>
+											</div>
+											<p
+												class="text-xl font-medium text-gray-600 max-md:text-base"
+											>
+												Invisible challenge
+											</p>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1299,6 +1525,72 @@
 					</div>
 				</section>
 
+				<!-- Compare -->
+				<section>
+					<div class="container">
+						<h2 class="text-center">Compare with others</h2>
+
+						<div class="parent mx-auto w-[1104px] max-w-full">
+							<div
+								class="child mx-auto mt-11 flex w-full max-[1104px]:overflow-x-auto"
+							>
+								<div class="max-w-[303px] shrink-0 max-[1104px]:w-[230px]">
+									<ul>
+										<li class="py-5">
+											<p class="font-generalSans text-lg font-medium">
+												User-friendly
+											</p>
+										</li>
+										<li>
+											<img src="./images/table-divider.svg" alt="divider" />
+										</li>
+										<li class="py-5">
+											<p class="font-generalSans text-lg font-medium">
+												GDPR-compliant
+											</p>
+										</li>
+										<li>
+											<img src="./images/table-divider.svg" alt="divider" />
+										</li>
+										<li class="py-5">
+											<p class="font-generalSans text-lg font-medium">
+												Open-source
+											</p>
+										</li>
+										<li>
+											<img src="./images/table-divider.svg" alt="divider" />
+										</li>
+										<li class="py-5">
+											<p class="font-generalSans text-lg font-medium">
+												Difficulty scaling
+											</p>
+										</li>
+										<li>
+											<img src="./images/table-divider.svg" alt="divider" />
+										</li>
+										<li class="py-5">
+											<p class="font-generalSans text-lg font-medium">
+												EU-only endpoints
+											</p>
+										</li>
+										<li>
+											<img src="./images/table-divider.svg" alt="divider" />
+										</li>
+										<li class="py-5">
+											<p class="font-generalSans text-lg font-medium">
+												Real Human support
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="w-[256px] shrink-0 bg-red-400">2</div>
+								<div class="w-[283px] shrink-0 bg-yellow-400">3</div>
+								<div class="w-[256px] shrink-0 bg-green-400">4</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
 				<!-- Protect your forms and APIs from abuse -->
 				<section>
 					<div class="container">
@@ -1324,7 +1616,7 @@
 								>
 									<a
 										href="#"
-										class="btn btn-ghost max-[480px]:w-full max-[480px]:max-w-full"
+										class="btn btn-secondary max-[480px]:w-full max-[480px]:max-w-full"
 									>
 										Log in
 									</a>

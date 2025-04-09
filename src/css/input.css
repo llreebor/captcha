@@ -86,10 +86,13 @@
 	.btn.btn-primary {
 		@apply bg-green-400 hover:bg-green-400/80;
 	}
-	.btn.btn-ghost {
-		@apply bg-green-800 hover:bg-green-800/50;
-	}
 	.btn.btn-secondary {
+		@apply bg-green-800 hover:bg-green-800/80;
+	}
+	.btn.btn-neutral {
 		@apply bg-white text-black hover:bg-white/80;
+	}
+	.btn.btn-link {
+		@apply bg-transparent text-[#6B6B6B] hover:text-green-800;
 	}
 }
