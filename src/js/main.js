@@ -56,3 +56,31 @@ function toggleAccordion() {
 	})
 }
 toggleAccordion()
+
+// Price Toggle
+const toggle = document.getElementById("toggle")
+const monthlyLabel = document.getElementById("monthly-label")
+const yearlyLabel = document.getElementById("yearly-label")
+
+// Function to update label colors based on toggle state
+function updateLabels() {
+	if (toggle.checked) {
+		// Yearly is active
+		monthlyLabel.classList.remove("text-[#212321]")
+		monthlyLabel.classList.add("text-[#848884]")
+		yearlyLabel.classList.remove("text-[#848884]")
+		yearlyLabel.classList.add("text-[#212321]")
+	} else {
+		// Monthly is active
+		monthlyLabel.classList.remove("text-[#848884]")
+		monthlyLabel.classList.add("text-[#212321]")
+		yearlyLabel.classList.remove("text-[#212321]")
+		yearlyLabel.classList.add("text-[#848884]")
+	}
+}
+
+// Initial state
+updateLabels()
+
+// Add event listener for toggle changes
+toggle.addEventListener("change", updateLabels)

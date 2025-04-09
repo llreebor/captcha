@@ -290,6 +290,172 @@
 			</div>
 			<!-- Main Content -->
 			<main class="mt-20 flex-auto space-y-20 max-sm:mt-14 max-sm:space-y-14">
+				<!-- How Private Captcha works -->
+				<section>
+					<div class="container">
+						<h2 class="text-center">How Private Captcha works</h2>
+
+						<div
+							class="mx-auto w-full max-w-[1046px] space-y-16 max-lg:space-y-10"
+						>
+							<!-- Images & Checkbox -->
+							<div
+								class="mt-16 grid grid-cols-2 gap-[170px] max-lg:grid-cols-1 max-lg:place-items-center max-sm:mt-10"
+							>
+								<div class="relative">
+									<img src="./images/captcha.png" alt="captcha image" />
+
+									<img
+										class="absolute top-1/2 -right-[160px] -translate-y-1/2 max-[380px]:left-10 max-lg:top-[unset] max-lg:right-1/2 max-lg:-bottom-[270px] max-lg:-translate-y-1/2! max-lg:rotate-90"
+										src="./images/works-arrow.svg"
+										alt="arrow"
+									/>
+								</div>
+								<div class="max-lg:flex max-lg:flex-col max-lg:items-center">
+									<p class="text-xl font-medium text-gray-800">Try it here:</p>
+
+									<!-- Checkbox & Logo & Vector Lines -->
+									<div
+										class="mt-6 flex w-full max-w-[446px] items-center justify-between rounded-xl bg-white px-7 py-[18px] shadow-sm max-sm:mt-10"
+									>
+										<label
+											class="relative flex cursor-pointer items-center gap-4 text-sm text-[21px] font-medium tracking-[-0.21px] text-[#615D5D]"
+										>
+											<span
+												class="absolute -top-[6px] -left-[6px] z-0 flex size-11 cursor-pointer items-center justify-center rounded border-2 border-black/20 bg-[#F2F2F2] accent-green-800 transition-all duration-200 ease-in-out"
+											></span>
+											<input
+												type="checkbox"
+												class="peer sr-only"
+												id="customCheckbox"
+											/>
+											<svg
+												class="z-10 opacity-0 transition-opacity duration-200 peer-checked:opacity-100"
+												width="32"
+												height="32"
+												viewBox="0 0 32 32"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M13.2704 27.1968C12.5744 27.1968 11.9152 26.872 11.4928 26.312L5.77604 18.7584C5.59889 18.5253 5.46951 18.2595 5.39532 17.9762C5.32114 17.693 5.30361 17.3979 5.34375 17.1079C5.38389 16.8179 5.4809 16.5386 5.62921 16.2862C5.77753 16.0337 5.97424 15.813 6.20804 15.6368C6.44125 15.4591 6.70729 15.3294 6.99084 15.2549C7.2744 15.1804 7.56988 15.1628 7.86029 15.2029C8.15069 15.2431 8.4303 15.3402 8.68302 15.4888C8.93573 15.6374 9.15658 15.8345 9.33284 16.0688L13.0944 21.0352L22.552 5.848C22.8657 5.34656 23.3654 4.98999 23.9416 4.85652C24.5178 4.72304 25.1234 4.82355 25.6256 5.136C26.6704 5.7856 26.992 7.1616 26.3392 8.208L15.1648 26.144C14.9741 26.4516 14.7112 26.7079 14.3989 26.8908C14.0866 27.0737 13.7344 27.1777 13.3728 27.1936L13.2704 27.1968Z"
+													fill="#072929"
+												/>
+											</svg>
+
+											<!-- Текст лейбла -->
+											<span
+												class="text-[21px] leading-none font-medium tracking-[-0.21px] text-[#615D5D] select-none max-sm:text-lg"
+											>
+												Click to verify
+											</span>
+										</label>
+
+										<div>
+											<img
+												class="max-sm:w-12"
+												src="./images/logo-black-vertical.png"
+												alt="logo"
+											/>
+										</div>
+									</div>
+
+									<p
+										class="mt-20 text-xl text-gray-500 max-lg:mt-10 max-lg:text-center"
+									>
+										Private Captcha solves an invisible cryptographic task in
+										the background, adjusting difficulty to ensure easy access
+										for real users while making it costly for bots.
+									</p>
+								</div>
+							</div>
+
+							<!-- User -->
+							<div>
+								<p class="text-center font-semibold text-gray-800">USER</p>
+								<div
+									class="mt-2 grid grid-cols-3 divide-x divide-[rgba(0,186,0,0.31)] rounded-[14px] border border-[rgba(0,186,0,0.31)] bg-[rgba(247,248,247,0.35)] max-lg:grid-cols-1 max-lg:divide-y"
+								>
+									<div
+										class="relative flex items-center justify-center gap-3 px-3 py-7"
+									>
+										<img
+											class="absolute top-1/2 left-3 -translate-y-1/2 max-sm:hidden"
+											src="./images/users-icon.png"
+											alt="user icon"
+										/>
+										<img
+											class="ml-10 size-8 max-lg:ml-0"
+											src="./images/check.png"
+											alt="check image"
+										/>
+										<p class="text-lg font-medium text-[#5C616C]">
+											Simple action
+										</p>
+									</div>
+									<div class="flex items-center justify-center gap-3 px-3 py-7">
+										<img
+											class="size-8"
+											src="./images/check.png"
+											alt="check image"
+										/>
+										<p class="text-lg font-medium text-[#5C616C]">
+											Fast access
+										</p>
+									</div>
+									<div class="flex items-center justify-center gap-3 px-3 py-7">
+										<img
+											class="size-8"
+											src="./images/check.png"
+											alt="check image"
+										/>
+										<p class="text-lg font-medium text-[#5C616C]">
+											No tracking
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Boots -->
+							<div>
+								<p class="text-center font-semibold text-gray-800">BOTS</p>
+								<div
+									class="mt-2 grid grid-cols-2 divide-x divide-[rgba(207,14,14,0.31)] rounded-[14px] border border-[rgba(207,14,14,0.31)] bg-[rgba(247,248,247,0.35)] max-lg:grid-cols-1 max-lg:divide-y"
+								>
+									<div
+										class="relative flex items-center justify-center gap-3 px-3 py-7"
+									>
+										<img
+											class="absolute top-1/2 left-3 -translate-y-1/2 max-sm:hidden"
+											src="./images/boots-icon.png"
+											alt="user icon"
+										/>
+										<img
+											class="ml-10 size-8 max-lg:ml-0"
+											src="./images/check-red.png"
+											alt="check image"
+										/>
+										<p class="text-lg font-medium text-[#5C616C]">
+											Exorbitant cost of solving captcha
+										</p>
+									</div>
+
+									<div class="flex items-center justify-center gap-3 px-3 py-7">
+										<img
+											class="size-8"
+											src="./images/check-red.png"
+											alt="check image"
+										/>
+										<p class="text-lg font-medium text-[#5C616C]">
+											Unaffected by AI intelligence
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
 				<!--  Legal Peace of Mind -->
 				<section>
 					<div class="container">
@@ -432,6 +598,67 @@
 								>
 									Privacy Policy is simple - no personal data is collected
 								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Simple pricing -->
+				<section>
+					<div class="container">
+						<div class="rounded-[50px] bg-gray-100 p-20 max-md:p-10">
+							<h2 class="text-center">Simple pricing</h2>
+
+							<!-- Switch -->
+							<div class="mt-6 flex justify-center">
+								<div class="flex items-center space-x-2">
+									<!-- Monthly Label -->
+									<span
+										id="monthly-label"
+										class="font-semibold text-[#848884] transition-colors duration-300"
+									>
+										Monthly
+									</span>
+
+									<!-- Toggle Switch -->
+									<label
+										class="relative inline-flex cursor-pointer items-center"
+									>
+										<input
+											type="checkbox"
+											id="toggle"
+											class="peer sr-only"
+											checked
+										/>
+										<div
+											class="h-[28px] w-[52px] rounded-full bg-gray-200 transition-colors duration-300 peer-checked:bg-[#00BA00]"
+										></div>
+										<div
+											class="absolute top-[2px] left-[2px] h-6 w-6 transform rounded-full bg-white shadow-md transition-transform duration-300 peer-checked:translate-x-6"
+										></div>
+									</label>
+
+									<!-- Yearly Label with Badge -->
+									<div class="flex items-center space-x-2">
+										<span
+											id="yearly-label"
+											class="font-semibold text-[#848884] transition-colors duration-300"
+										>
+											Yearly
+										</span>
+										<span
+											class="rounded-[5px] border border-[#00BA00] px-2 py-px font-medium text-[#00BA00]"
+										>
+											1 month free
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<!-- Price Blocks -->
+							<div class="mx-auto mt-6 grid max-w-[850px] grid-cols-2 gap-5">
+								<div>1</div>
+								<div>2</div>
 							</div>
 						</div>
 					</div>
