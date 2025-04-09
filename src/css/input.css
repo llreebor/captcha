@@ -37,10 +37,20 @@
 	--color-green-800: #1b4040;
 	--color-green-900: #072929;
 
+	--color-gray-100: #f7f8f7;
 	--color-gray-200: #eff1ef;
+	--color-gray-300: #67686a;
 	--color-gray-500: #5c616c;
+	--color-gray-600: #333333;
 	--color-gray-700: #393d45;
 	--color-gray-800: #282d36;
+	--color-gray-900: #231f20;
+	--color-gray-950: #100f0f;
+	--shadow-card:
+		0px 171px 69px 0px rgba(133, 133, 133, 0.01),
+		0px 268px 75px 0px rgba(133, 133, 133, 0),
+		0px 11px 24px 0px rgba(133, 133, 133, 0.1);
+	--shadow-sm: 0px 0px 4px 0px rgba(7, 41, 41, 0.1);
 }
 
 /* Container max-width & paddings */
