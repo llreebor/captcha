@@ -1382,7 +1382,7 @@
 					</div>
 				</section>
 
-				<!--  Legal Peace of Mind -->
+				<!-- Ease of use -->
 				<section>
 					<div class="container">
 						<div class="rounded-[50px] bg-gray-200 p-20 max-md:p-10">
@@ -1390,7 +1390,7 @@
 							<p class="text-[#585254]">Features Of Private Captcha</p>
 
 							<div
-								class="mt-[70px] grid grid-cols-2 place-items-center gap-x-[170px] gap-y-20 max-[1200px]:gap-20 max-md:mt-10 max-md:grid-cols-1 max-md:gap-10"
+								class="mt-[70px] grid grid-cols-2 gap-x-[170px] gap-y-20 overflow-hidden max-[1200px]:gap-20 max-md:mt-10 max-md:grid-cols-1 max-md:gap-10"
 							>
 								<div class="space-y-8">
 									<div class="mx-auto flex gap-4 max-[480px]:flex-col">
@@ -1464,10 +1464,11 @@
 										</div>
 									</div>
 
-									<div
-										class="rounded-lg bg-white p-5 text-xs font-medium text-gray-800 max-lg:overflow-scroll"
-									>
-										<pre class="text-xs font-medium text-gray-800">
+									<div class="max-w-full">
+										<div
+											class="w-full rounded-lg bg-white p-5 text-xs font-medium text-gray-800 max-[1104px]:overflow-x-auto"
+										>
+											<pre class="text-xs font-medium text-gray-800">
 <code class="text-xs font-medium text-gray-800"><b>&lt;form&gt;
 	&lt;div class="private-captcha"
 	data-sitekey="y2y"
@@ -1476,6 +1477,7 @@
 	&lt;/div&gt;
 &lt;/form&gt;</b>
 </code></pre>
+										</div>
 									</div>
 								</div>
 
@@ -1530,11 +1532,14 @@
 					<div class="container">
 						<h2 class="text-center">Compare with others</h2>
 
-						<div class="parent mx-auto w-[1104px] max-w-full">
+						<div class="mx-auto w-[1104px] max-w-full">
 							<div
-								class="child mx-auto mt-11 flex w-full max-[1104px]:overflow-x-auto"
+								class="mx-auto mt-11 flex w-full pb-5 max-[1104px]:overflow-x-auto"
 							>
-								<div class="max-w-[303px] shrink-0 max-[1104px]:w-[230px]">
+								<!-- 1st -->
+								<div
+									class="mt-[54px] max-w-[303px] shrink-0 max-[1104px]:w-[230px]"
+								>
 									<ul>
 										<li class="py-5">
 											<p class="font-generalSans text-lg font-medium">
@@ -1583,9 +1588,115 @@
 										</li>
 									</ul>
 								</div>
-								<div class="w-[256px] shrink-0 bg-red-400">2</div>
-								<div class="w-[283px] shrink-0 bg-yellow-400">3</div>
-								<div class="w-[256px] shrink-0 bg-green-400">4</div>
+
+								<!-- 2nd -->
+								<div class="w-[256px] shrink-0 translate-x-2">
+									<p
+										class="font-generalSans p-5 pt-[14px] text-center font-medium text-gray-900"
+									>
+										Google reCAPTCHA
+									</p>
+									<ul
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-br-none bg-[#F7F8F7] p-5"
+									>
+										<li class="flex justify-center px-3 pb-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-[22px] text-center">
+											<p class="font-generalSans font-medium text-black">
+												Grey area (at best)
+											</p>
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 pt-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+									</ul>
+								</div>
+
+								<!-- 3rd -->
+								<div
+									class="relative z-10 w-[283px] shrink-0 rounded-2xl border border-[#E3E7EE]"
+								>
+									<p
+										class="font-generalSans rounded-t-2xl bg-gray-900 px-5 py-[14px] text-center text-lg font-medium text-white"
+									>
+										Private Captcha
+									</p>
+									<ul
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] bg-[#F7F8F7] p-5"
+									>
+										<li class="flex justify-center px-3 pb-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-[22px] text-center">
+											<p class="font-generalSans font-medium text-black">
+												Grey area (at best)
+											</p>
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 pt-5 text-center">
+											<img src="./images/empty.png" alt="icon" />
+										</li>
+									</ul>
+								</div>
+
+								<!-- 4th -->
+								<div class="z-0 w-[256px] shrink-0 -translate-x-2">
+									<p
+										class="font-generalSans p-5 pt-[14px] text-center font-medium text-gray-900"
+									>
+										Friendly Captcha
+									</p>
+									<ul
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-bl-none bg-[#F7F8F7] p-5"
+									>
+										<li class="flex justify-center px-3 pb-5 text-center">
+											<img src="./images/empty-checkmark.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img src="./images/empty-checkmark.png" alt="icon" />
+										</li>
+										<li class="flex justify-center px-3 py-[22px] text-center">
+											<p class="font-generalSans font-medium text-black">
+												Only widget
+											</p>
+										</li>
+										<li class="flex justify-center px-3 py-[22px] text-center">
+											<p class="font-generalSans font-medium text-black">
+												Enterprise tier only
+											</p>
+										</li>
+										<li class="flex justify-center px-3 py-[22px] text-center">
+											<p class="font-generalSans font-medium text-black">
+												Enterprise tier only
+											</p>
+										</li>
+										<li
+											class="flex justify-center px-3 pt-[22px] pb-2 text-center"
+										>
+											<p class="font-generalSans font-medium text-black">
+												Enterprise tier only
+											</p>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
