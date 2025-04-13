@@ -18,7 +18,7 @@
 			<!-- Hero Wrapper -->
 			<div class="container">
 				<div
-					class="rounded-[50px] bg-linear-[113deg,#072929_7.84%,#072929_93.91%] p-10 max-md:px-5 max-md:py-7"
+					class="rounded-[50px] bg-linear-[113deg,#072929_7.84%,#072929_93.91%] py-11 max-md:px-5 max-md:py-7 max-sm:rounded-2xl"
 				>
 					<div class="mx-auto w-full max-w-[1108px]">
 						<!-- Header-->
@@ -130,28 +130,31 @@
 						</header>
 
 						<!-- Hero -->
-						<section class="mt-[150px] max-lg:mt-0">
+						<section class="mt-[75px] max-lg:mt-0">
 							<div
 								class="flex justify-between gap-5 max-lg:flex-col max-lg:gap-10"
 							>
 								<!-- Left Side -->
-								<div class="w-full max-w-[510px] pt-[70px] max-lg:max-w-full">
+								<div class="w-full max-w-[500px] pt-[66px] max-lg:max-w-full">
 									<h1>The privacy first&nbsp;captcha that just works</h1>
 									<p
 										class="mt-8 text-lg leading-[1.44] text-[#F0F5FC] max-lg:mt-5"
 									>
-										Protect your forms and APIs from abuse with user friendly,
-										GDPR-compliant security that integrates seamlessly with your
-										existing tech stack.
+										Protect your forms and APIs from abuse with
+										user&nbsp;friendly, GDPR-compliant security that integrates
+										seamlessly with your existing tech stack.
 									</p>
-									<a href="#" class="btn btn-primary mt-10 max-lg:mt-6">
+									<a
+										href="#"
+										class="btn btn-primary font-generalSans mt-8 py-[18px] text-[19px] max-lg:mt-6"
+									>
 										Start free trial
 									</a>
 								</div>
 
 								<!-- Right side -->
 								<div
-									class="relative flex h-full w-full max-w-[571px] translate-x-6 flex-col items-center justify-center bg-[url(../images/large-shield.svg)] bg-contain bg-center bg-no-repeat pt-[125px] pb-[150px] max-lg:max-w-full max-lg:translate-x-0 max-sm:bg-transparent max-sm:py-0"
+									class="relative flex h-full w-full max-w-[569px] translate-x-10 flex-col items-center justify-center bg-[url(../images/large-shield.svg)] bg-contain bg-center bg-no-repeat pt-[125px] pb-[150px] max-lg:max-w-full max-lg:translate-x-0 max-sm:bg-transparent max-sm:py-0"
 								>
 									<!-- List -->
 									<ul
@@ -256,31 +259,51 @@
 							<!-- Partners -->
 							<div class="max-sm:mt-10">
 								<p
-									class="text-center text-sm font-semibold tracking-[3.64px] text-white/60 uppercase"
+									class="text-center text-[13px] font-semibold tracking-[3.64px] text-white/60 uppercase"
 								>
 									World-leading organizations trust us
 								</p>
 
 								<ul
-									class="mt-12 flex items-center justify-between gap-5 max-sm:mt-8 max-sm:flex-wrap max-sm:justify-center"
+									class="mt-12 flex items-center justify-between gap-5 opacity-85 bg-blend-luminosity max-sm:mt-8 max-sm:flex-wrap max-sm:justify-center"
 								>
 									<li>
 										<img src="./images/partner-1.png" alt="partner image" />
 									</li>
 									<li>
-										<img src="./images/partner-2.png" alt="partner image" />
+										<img
+											class="w-[135px]"
+											src="./images/partner-2.png"
+											alt="partner image"
+										/>
 									</li>
 									<li>
-										<img src="./images/partner-3.png" alt="partner image" />
+										<img
+											class="w-[108px]"
+											src="./images/partner-3.png"
+											alt="partner image"
+										/>
 									</li>
 									<li>
-										<img src="./images/partner-4.png" alt="partner image" />
+										<img
+											class="w-[88px]"
+											src="./images/partner-4.png"
+											alt="partner image"
+										/>
 									</li>
 									<li>
-										<img src="./images/partner-5.png" alt="partner image" />
+										<img
+											class="w-[139px]"
+											src="./images/partner-5.png"
+											alt="partner image"
+										/>
 									</li>
 									<li>
-										<img src="./images/partner-6.png" alt="partner image" />
+										<img
+											class="w-[122px]"
+											src="./images/partner-6.png"
+											alt="partner image"
+										/>
 									</li>
 								</ul>
 							</div>
@@ -493,7 +516,11 @@
 									<img src="./images/legal-3.png" alt="legal image" />
 									<h4>Open source</h4>
 									<p class="font-medium tracking-[-0.32px] text-gray-500">
-										Our code is publicly available for audit.
+										Our code is publicly
+										<a href="#" class="underline hover:text-gray-950">
+											available
+										</a>
+										for audit.
 									</p>
 								</div>
 								<div
@@ -607,12 +634,12 @@
 				<section>
 					<div class="container">
 						<div
-							class="rounded-[50px] bg-[url('../images/pricing-bg.png')] bg-cover bg-center bg-no-repeat p-20 max-md:p-10 max-sm:px-5 max-sm:py-8"
+							class="rounded-[50px] bg-[url('../images/pricing-bg.png')] bg-cover bg-center bg-no-repeat px-20 py-[71px] max-md:p-10 max-sm:px-5 max-sm:py-8"
 						>
 							<h2 class="text-center">Simple pricing</h2>
 
 							<!-- Switch -->
-							<div class="mt-6 flex justify-center">
+							<div class="mt-6 ml-2 flex justify-center">
 								<div class="flex items-center space-x-2">
 									<!-- Monthly Label -->
 									<span
@@ -659,124 +686,134 @@
 
 							<!-- Price Blocks -->
 							<div
-								class="mx-auto mt-6 grid max-w-[850px] grid-cols-2 gap-5 max-lg:grid-cols-1"
+								class="mx-auto mt-6 grid max-w-[850px] grid-cols-2 items-start gap-5 max-lg:grid-cols-1"
 							>
 								<!-- Left Block -->
-								<div
-									class="rounded-[25px] border border-[#E8E9E8] bg-white p-9 max-sm:p-5"
-								>
-									<!-- Title -->
-									<div>
-										<p
-											class="font-generalSans text-[30px] font-semibold tracking-[-0.3px] text-gray-900 max-sm:text-2xl"
-										>
-											€5 / month
-											<span
-												class="ml-4 text-base font-normal text-[#6B6B6B] max-sm:ml-0 max-sm:block"
-											>
-												billed per year
-											</span>
-										</p>
-									</div>
-
-									<!-- Requests -->
+								<div>
 									<div
-										class="mt-4 flex w-full max-w-[284px] items-center gap-2.5 rounded-full border border-[#E5E5E5] p-[6px]"
+										class="rounded-[25px] border border-[#E8E9E8] bg-white px-[36px] pt-[24px] pb-[46px] max-sm:p-5"
 									>
-										<button class="size-[25px] cursor-pointer">
-											<img src="./images/left-arrow-btn.svg" alt="arrow" />
-										</button>
-										<p
-											class="text-xl leading-0 font-medium text-[#A9A9A9] max-[380px]:text-base"
+										<!-- Title -->
+										<div>
+											<p
+												class="font-generalSans text-[30px] font-semibold tracking-[-0.3px] text-gray-900 max-sm:text-2xl"
+											>
+												€5 / month
+												<span
+													class="ml-3 text-base font-normal text-[#6B6B6B] max-sm:ml-0 max-sm:block"
+												>
+													billed per year
+												</span>
+											</p>
+										</div>
+
+										<!-- Requests -->
+										<div
+											class="mt-3 flex w-full max-w-[284px] items-center gap-2.5 rounded-full border border-[#E5E5E5] p-[6px]"
 										>
-											<span class="text-[#312F2F]">5,000</span>
-											requests
-										</p>
-										<button class="ml-auto size-[25px] cursor-pointer">
-											<img src="./images/right-arrow-btn.svg" alt="arrow" />
-										</button>
+											<button class="size-[25px] cursor-pointer">
+												<img src="./images/left-arrow-btn.svg" alt="arrow" />
+											</button>
+											<p
+												class="text-xl leading-0 font-medium text-[#A9A9A9] max-[380px]:text-base"
+											>
+												<span class="text-[#312F2F]">5,000</span>
+												requests
+											</p>
+											<button class="ml-auto size-[25px] cursor-pointer">
+												<img src="./images/right-arrow-btn.svg" alt="arrow" />
+											</button>
+										</div>
+
+										<!-- List -->
+										<ul class="mt-11 space-y-[14px] max-sm:mt-8">
+											<li class="flex gap-3">
+												<div class="shrink-0">
+													<img
+														class="max-md:size-6"
+														src="./images/check.png"
+														alt="check icon"
+													/>
+												</div>
+												<p
+													class="text-lg font-medium text-gray-600 max-md:text-base"
+												>
+													Privacy-first protection
+												</p>
+											</li>
+											<li class="flex gap-3">
+												<div class="shrink-0">
+													<img
+														class="max-md:size-6"
+														src="./images/check.png"
+														alt="check icon"
+													/>
+												</div>
+												<p
+													class="text-lg font-medium text-gray-600 max-md:text-base"
+												>
+													Easy integration
+												</p>
+											</li>
+											<li class="flex gap-3">
+												<div class="shrink-0">
+													<img
+														class="max-md:size-6"
+														src="./images/check.png"
+														alt="check icon"
+													/>
+												</div>
+												<p
+													class="text-lg font-medium text-gray-600 max-md:text-base"
+												>
+													No cookie banners required
+												</p>
+											</li>
+											<li class="flex gap-3">
+												<div class="shrink-0">
+													<img
+														class="max-md:size-6"
+														src="./images/check.png"
+														alt="check icon"
+													/>
+												</div>
+												<p
+													class="text-lg font-medium text-gray-600 max-md:text-base"
+												>
+													User-friendly
+												</p>
+											</li>
+										</ul>
+
+										<!-- Buttons -->
+										<div
+											class="mt-11 flex max-sm:mt-8 max-sm:flex-col max-sm:gap-4"
+										>
+											<a href="#" class="btn btn-secondary max-sm:max-w-full">
+												Start free trial
+											</a>
+											<a href="#" class="btn btn-link max-sm:max-w-full">
+												Cancel anytime
+											</a>
+										</div>
 									</div>
-
-									<!-- List -->
-									<ul class="mt-11 space-y-3 max-sm:mt-8">
-										<li class="flex gap-3">
-											<div class="shrink-0">
-												<img
-													class="max-md:size-6"
-													src="./images/check.png"
-													alt="check icon"
-												/>
-											</div>
-											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
-											>
-												Privacy-first protection
-											</p>
-										</li>
-										<li class="flex gap-3">
-											<div class="shrink-0">
-												<img
-													class="max-md:size-6"
-													src="./images/check.png"
-													alt="check icon"
-												/>
-											</div>
-											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
-											>
-												Easy integration
-											</p>
-										</li>
-										<li class="flex gap-3">
-											<div class="shrink-0">
-												<img
-													class="max-md:size-6"
-													src="./images/check.png"
-													alt="check icon"
-												/>
-											</div>
-											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
-											>
-												No cookie banners required
-											</p>
-										</li>
-										<li class="flex gap-3">
-											<div class="shrink-0">
-												<img
-													class="max-md:size-6"
-													src="./images/check.png"
-													alt="check icon"
-												/>
-											</div>
-											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
-											>
-												User-friendly
-											</p>
-										</li>
-									</ul>
-
-									<!-- Buttons -->
-									<div
-										class="mt-12 flex max-sm:mt-8 max-sm:flex-col max-sm:gap-4"
-									>
-										<a href="#" class="btn btn-secondary max-sm:max-w-full">
-											Start free trial
-										</a>
-										<a href="#" class="btn btn-link max-sm:max-w-full">
-											Cancel anytime
-										</a>
+									<!-- Price does not include VAT -->
+									<div class="mx-auto mt-2 grid max-w-[850px]">
+										<p
+											class="text-center text-base tracking-[-0.16px] text-[#6B6B6B]"
+										>
+											Price does not include VAT
+										</p>
 									</div>
 								</div>
 
 								<!-- Right Block -->
 								<div
-									class="rounded-[25px] border border-[#E8E9E8] bg-[#EFF1EF] p-9 max-sm:p-5"
+									class="rounded-[25px] border border-[#E8E9E8] bg-[#EFF1EF] px-[50px] pt-[24px] pb-[60px] max-sm:p-5"
 								>
 									<!-- Title -->
 									<p
-										class="text-[30px] font-semibold text-gray-900 max-sm:text-2xl"
+										class="text-[23px] font-medium text-gray-900 max-sm:text-2xl"
 									>
 										Included in
 										<i>each</i>
@@ -784,7 +821,7 @@
 									</p>
 
 									<!-- List -->
-									<ul class="mt-11 space-y-3 max-sm:mt-8">
+									<ul class="mt-11 space-y-[15px] max-sm:mt-8">
 										<li class="flex gap-3">
 											<div class="shrink-0">
 												<img
@@ -794,7 +831,7 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												Smart difficulty scaling
 											</p>
@@ -808,7 +845,7 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												EU-only endpoints
 											</p>
@@ -822,7 +859,7 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												Real human support
 											</p>
@@ -836,7 +873,7 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												Up to 50 properties
 											</p>
@@ -850,7 +887,7 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												Usage statistics
 											</p>
@@ -864,7 +901,7 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												Widget customization
 											</p>
@@ -878,13 +915,30 @@
 												/>
 											</div>
 											<p
-												class="text-xl font-medium text-gray-600 max-md:text-base"
+												class="text-lg font-medium text-gray-600 max-md:text-base"
 											>
 												Invisible challenge
 											</p>
 										</li>
 									</ul>
 								</div>
+							</div>
+
+							<!-- Footer -->
+							<div class="mt-8 flex flex-col items-center space-y-1">
+								<p
+									class="text-center text-[21px] font-semibold tracking-[-0.63px] max-md:text-lg"
+								>
+									<span class="text-[#393D45]">Deploy on your</span>
+									own infrastructure for free
+								</p>
+
+								<a
+									href="@#"
+									class="font-generalSans text-[15px] font-semibold tracking-[-0.15px] underline hover:text-gray-950/80"
+								>
+									Check documentation
+								</a>
 							</div>
 						</div>
 					</div>
@@ -903,7 +957,7 @@
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF] group-[.active]:px-[39px] group-[.active]:pt-[46px] group-[.active]:pb-[31px]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -914,13 +968,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -930,11 +986,11 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
-											class="p-6 pt-0 pr-20 text-lg text-[#4C4D50] max-sm:pr-10 max-sm:text-base"
+											class="p-6 pt-0 pr-20 pl-[39px] text-lg text-[#4C4D50] max-sm:pr-10 max-sm:text-base"
 										>
 											Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 											Autem, minus? Lorem ipsum, dolor sit amet consectetur
@@ -966,14 +1022,17 @@
 									<!-- Icon -->
 									<div class="flex">
 										<!-- Arrow Icon -->
+
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1021,13 +1080,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1074,13 +1135,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1128,13 +1191,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1181,13 +1246,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1235,13 +1302,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1289,13 +1358,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1342,13 +1413,15 @@
 									<div class="flex">
 										<!-- Arrow Icon -->
 										<svg
-											class="accordion-img h-2 w-4 transition-transform duration-300 group-[.active]:rotate-180"
-											viewBox="0 0 13 8"
-											fill="none"
+											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="9"
+											viewBox="0 0 16 9"
+											fill="none"
 										>
 											<path
-												d="M6.50004 7.59904C6.36115 7.59904 6.22643 7.573 6.09587 7.52091C5.96532 7.46883 5.85698 7.39939 5.77087 7.31258L0.979207 2.52091C0.788235 2.32994 0.692749 2.08689 0.692749 1.79175C0.692749 1.49661 0.788235 1.25355 0.979207 1.06258C1.17018 0.871609 1.41324 0.776123 1.70837 0.776123C2.00351 0.776123 2.24657 0.871609 2.43754 1.06258L6.50004 5.12508L10.5625 1.06258C10.7535 0.871609 10.9966 0.776123 11.2917 0.776123C11.5868 0.776123 11.8299 0.871609 12.0209 1.06258C12.2118 1.25355 12.3073 1.49661 12.3073 1.79175C12.3073 2.08689 12.2118 2.32994 12.0209 2.52091L7.22921 7.31258C7.12504 7.41675 7.01219 7.49071 6.89067 7.53446C6.76914 7.57821 6.63893 7.59973 6.50004 7.59904Z"
+												d="M8.84968 8.2447C8.45916 8.63523 7.826 8.63523 7.43547 8.2447L1.07151 1.88074C0.680986 1.49022 0.680986 0.857054 1.07151 0.46653C1.46203 0.0760055 2.0952 0.0760055 2.48572 0.46653L8.14258 6.12338L13.7994 0.46653C14.19 0.0760055 14.8231 0.0760055 15.2136 0.46653C15.6042 0.857054 15.6042 1.49022 15.2136 1.88074L8.84968 8.2447ZM9.14258 7.08105V7.5376H7.14258V7.08105H9.14258Z"
 												fill="black"
 												class="group-[.active]:fill-[#00BA00]"
 											/>
@@ -1385,14 +1458,16 @@
 				<!-- Ease of use -->
 				<section>
 					<div class="container">
-						<div class="rounded-[50px] bg-gray-200 p-20 max-md:p-10">
+						<div
+							class="rounded-[50px] bg-gray-200 px-[145px] pt-[78px] pb-[140px] max-[1420px]:px-[100px] max-md:p-12"
+						>
 							<h2>Ease of use</h2>
 							<p class="text-[#585254]">Features Of Private Captcha</p>
 
 							<div
-								class="mt-[70px] grid grid-cols-2 gap-x-[170px] gap-y-20 overflow-hidden max-[1200px]:gap-20 max-md:mt-10 max-md:grid-cols-1 max-md:gap-10"
+								class="mt-[70px] grid grid-cols-2 gap-x-[171px] gap-y-20 overflow-hidden max-[1420px]:gap-20 max-md:mt-10 max-md:grid-cols-1 max-md:gap-10"
 							>
-								<div class="space-y-8">
+								<div class="max-w-[450px] space-y-8 max-md:max-w-full">
 									<div class="mx-auto flex gap-4 max-[480px]:flex-col">
 										<img
 											class="size-14 shrink-0"
@@ -1401,7 +1476,7 @@
 										/>
 										<div class="space-y-2">
 											<p
-												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize"
+												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize max-md:text-lg"
 											>
 												Easy Integrations
 											</p>
@@ -1447,16 +1522,16 @@
 									</div>
 								</div>
 
-								<div class="space-y-8">
-									<div class="flex gap-4 max-[480px]:flex-col">
+								<div class="max-w-[450px] space-y-8 max-md:max-w-full">
+									<div class="flex gap-4 max-[450px]:flex-col">
 										<img
 											class="size-14 shrink-0"
-											src="./images/use-1.png"
+											src="./images/use-2.png"
 											alt="icon"
 										/>
 										<div class="space-y-2">
 											<p
-												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize"
+												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize max-md:text-lg"
 											>
 												Insert The Code
 											</p>
@@ -1481,7 +1556,7 @@
 									</div>
 								</div>
 
-								<div>
+								<div class="max-w-[450px] max-md:max-w-full">
 									<div class="flex gap-4 max-[480px]:flex-col">
 										<img
 											class="size-14 shrink-0"
@@ -1490,7 +1565,7 @@
 										/>
 										<div class="space-y-2">
 											<p
-												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize"
+												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize max-md:text-lg"
 											>
 												Extensive documentation for developers
 											</p>
@@ -1503,7 +1578,7 @@
 									</div>
 								</div>
 
-								<div>
+								<div class="max-w-[450px] max-md:max-w-full">
 									<div class="flex gap-4 max-[480px]:flex-col">
 										<img
 											class="size-14 shrink-0"
@@ -1512,7 +1587,7 @@
 										/>
 										<div class="space-y-2">
 											<p
-												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize"
+												class="font-generalSans text-xl font-semibold text-[#0F0F2B] capitalize max-md:text-lg"
 											>
 												Real human support
 											</p>
@@ -1590,14 +1665,14 @@
 								</div>
 
 								<!-- 2nd -->
-								<div class="w-[256px] shrink-0 translate-x-2">
+								<div class="w-[284px] shrink-0 translate-x-[28px]">
 									<p
 										class="font-generalSans p-5 pt-[14px] text-center font-medium text-gray-900"
 									>
 										Google reCAPTCHA
 									</p>
 									<ul
-										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-br-none bg-[#F7F8F7] p-5"
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-br-none bg-[#F7F8F7] pt-[14px] pr-[52px] pl-[26px]"
 									>
 										<li class="flex justify-center px-3 pb-5 text-center">
 											<img src="./images/empty.png" alt="icon" />
@@ -1627,38 +1702,68 @@
 									class="relative z-10 w-[283px] shrink-0 rounded-2xl border border-[#E3E7EE]"
 								>
 									<p
-										class="font-generalSans rounded-t-2xl bg-gray-900 px-5 py-[14px] text-center text-lg font-medium text-white"
+										class="font-generalSans rounded-t-2xl bg-[#072929] px-5 py-[10px] text-center text-lg font-semibold text-white"
 									>
 										Private Captcha
 									</p>
 									<ul
-										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] bg-[#F7F8F7] p-5"
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] bg-white p-5"
 									>
 										<li class="flex justify-center px-3 pb-5 text-center">
-											<img src="./images/empty.png" alt="icon" />
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
-										<li class="flex justify-center px-3 py-[22px] text-center">
-											<p class="font-generalSans font-medium text-black">
-												Grey area (at best)
-											</p>
+
+										<li class="flex justify-center px-3 py-5 text-center">
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
 										<li class="flex justify-center px-3 py-5 text-center">
-											<img src="./images/empty.png" alt="icon" />
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
 										<li class="flex justify-center px-3 py-5 text-center">
-											<img src="./images/empty.png" alt="icon" />
-										</li>
-										<li class="flex justify-center px-3 py-5 text-center">
-											<img src="./images/empty.png" alt="icon" />
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
 										<li class="flex justify-center px-3 pt-5 text-center">
-											<img src="./images/empty.png" alt="icon" />
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
+										</li>
+										<li class="flex justify-center px-3 pt-5 text-center">
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
+										</li>
+										<li class="flex justify-center px-3 pt-5 text-center">
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
 									</ul>
 								</div>
 
 								<!-- 4th -->
-								<div class="z-0 w-[256px] shrink-0 -translate-x-2">
+								<div class="z-0 w-[284px] shrink-0 -translate-x-[28px]">
 									<p
 										class="font-generalSans p-5 pt-[14px] text-center font-medium text-gray-900"
 									>
@@ -1668,10 +1773,18 @@
 										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-bl-none bg-[#F7F8F7] p-5"
 									>
 										<li class="flex justify-center px-3 pb-5 text-center">
-											<img src="./images/empty-checkmark.png" alt="icon" />
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
 										<li class="flex justify-center px-3 py-5 text-center">
-											<img src="./images/empty-checkmark.png" alt="icon" />
+											<img
+												class="size-[28px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
 										</li>
 										<li class="flex justify-center px-3 py-[22px] text-center">
 											<p class="font-generalSans font-medium text-black">
@@ -1711,7 +1824,7 @@
 							<div
 								class="mx-auto flex max-w-[636px] flex-col items-center gap-6"
 							>
-								<h2 class="text-center text-white">
+								<h2 class="text-center text-[58px] leading-[1.08] text-white">
 									Protect your forms and APIs from abuse
 								</h2>
 								<p
@@ -1748,7 +1861,7 @@
 			<footer class="mt-20 max-sm:mt-14">
 				<div class="container">
 					<div
-						class="mx-auto flex max-w-[1042px] justify-between gap-5 pb-8 max-sm:flex-col max-sm:gap-10"
+						class="mx-auto flex max-w-[1042px] justify-between gap-5 pr-[60px] pb-8 max-sm:flex-col max-sm:gap-10"
 					>
 						<a href="#">
 							<img
@@ -1759,7 +1872,7 @@
 						</a>
 
 						<div class="flex gap-12 max-md:gap-4 max-sm:flex-wrap max-sm:gap-5">
-							<div class="space-y-6 max-sm:space-y-4">
+							<div class="space-y-4">
 								<p class="text-lg font-semibold text-black capitalize">
 									quick links
 								</p>
@@ -1800,7 +1913,7 @@
 								</ul>
 							</div>
 
-							<div class="space-y-6 max-sm:space-y-4">
+							<div class="space-y-4">
 								<p class="text-lg font-semibold text-black capitalize">
 									Legal Links
 								</p>
@@ -1841,9 +1954,9 @@
 								</ul>
 							</div>
 
-							<div class="space-y-6 max-sm:space-y-4">
+							<div class="space-y-4">
 								<p class="text-lg font-semibold text-black capitalize">
-									quick links
+									Alternative to
 								</p>
 
 								<ul class="space-y-2">

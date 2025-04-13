@@ -64,7 +64,7 @@
 		@apply text-6xl leading-[1.03] font-light tracking-[-1.22px] text-[#F0F3F9] max-lg:text-5xl max-sm:text-3xl max-sm:leading-tight;
 	}
 	h2 {
-		@apply text-5xl font-light text-gray-700 max-lg:text-4xl max-sm:text-2xl;
+		@apply text-[45px] font-light tracking-[-1.35px] text-gray-700 max-lg:text-4xl max-sm:text-2xl;
 	}
 	h4 {
 		@apply text-lg leading-[1.15] font-semibold tracking-[-0.19px] text-gray-700;
@@ -73,7 +73,7 @@
 
 @layer components {
 	.btn {
-		@apply flex max-w-fit shrink-0 justify-center rounded-[10px] px-[26px] py-[18px] text-center leading-none font-medium text-white transition-colors max-md:px-6 max-md:py-4;
+		@apply flex max-w-fit shrink-0 justify-center rounded-[10px] px-[26px] py-4 text-center leading-none font-medium text-white transition-colors max-md:px-6 max-md:py-4;
 	}
 }
 
@@ -93,6 +93,11 @@
 		@apply bg-white text-black hover:bg-white/80;
 	}
 	.btn.btn-link {
-		@apply bg-transparent text-[#6B6B6B] hover:text-green-800;
+		@apply font-generalSans bg-transparent font-normal tracking-[-0.16px] text-[#6B6B6B] hover:text-green-800;
+	}
+
+	/* Accordion */
+	.accordion-item.active {
+		@apply bg-[#EFF1EF];
 	}
 }
