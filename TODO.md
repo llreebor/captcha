@@ -1,4 +1,0 @@
-# TODO:
-
-- Table
-- FAQ
