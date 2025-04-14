@@ -61,6 +61,7 @@ toggleAccordion()
 const toggle = document.getElementById("toggle")
 const monthlyLabel = document.getElementById("monthly-label")
 const yearlyLabel = document.getElementById("yearly-label")
+const freeLabel = document.getElementById("free")
 
 // Function to update label colors based on toggle state
 function updateLabels() {
@@ -70,12 +71,14 @@ function updateLabels() {
 		monthlyLabel.classList.add("text-[#848884]")
 		yearlyLabel.classList.remove("text-[#848884]")
 		yearlyLabel.classList.add("text-[#212321]")
+		freeLabel.classList.remove("hidden")
 	} else {
 		// Monthly is active
 		monthlyLabel.classList.remove("text-[#848884]")
 		monthlyLabel.classList.add("text-[#212321]")
 		yearlyLabel.classList.remove("text-[#212321]")
 		yearlyLabel.classList.add("text-[#848884]")
+		freeLabel.classList.add("hidden")
 	}
 }
 

@@ -50,6 +50,8 @@
 		0px 268px 75px 0px rgba(133, 133, 133, 0),
 		0px 11px 24px 0px rgba(133, 133, 133, 0.1);
 	--shadow-sm: 0px 0px 4px 0px rgba(7, 41, 41, 0.1);
+
+	--gradient: linear-gradient(180deg, #fff 0%, #f6f6f6 95.03%), #fff;
 }
 
 /* Container max-width & paddings */
@@ -100,4 +102,7 @@
 	.accordion-item.active {
 		@apply bg-[#EFF1EF];
 	}
+}
+.third {
+	background: linear-gradient(180deg, #fff 0%, #f6f6f6 95.03%), #fff;
 }

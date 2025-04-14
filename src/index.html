@@ -198,7 +198,7 @@
 										class="relative mt-16 flex w-full max-w-[446px] items-center justify-between rounded-xl bg-white px-7 py-[18px] shadow-sm max-sm:mt-10"
 									>
 										<img
-											class="absolute -top-[90px] left-[106px] -z-10 max-[1200px]:hidden max-lg:block max-sm:hidden"
+											class="absolute -top-[90px] left-[101px] -z-10 max-[1200px]:hidden max-lg:block max-sm:hidden"
 											src="./images/vector-1.svg"
 											alt="image"
 										/>
@@ -482,7 +482,7 @@
 				<!--  Legal Peace of Mind -->
 				<section>
 					<div class="container">
-						<div class="rounded-[50px] bg-gray-200 p-20 max-md:p-10">
+						<div class="rounded-[50px] bg-gray-200 p-20 pt-[72px] max-md:p-10">
 							<h2 class="text-center">
 								Legal Peace of
 								<span class="text-gray-800">Mind</span>
@@ -668,7 +668,7 @@
 									</label>
 
 									<!-- Yearly Label with Badge -->
-									<div class="flex items-center space-x-2">
+									<div class="relative flex items-center space-x-2">
 										<span
 											id="yearly-label"
 											class="font-semibold text-[#848884] transition-colors duration-300"
@@ -676,7 +676,8 @@
 											Yearly
 										</span>
 										<span
-											class="rounded-[5px] border border-[#00BA00] px-2 py-px font-medium text-[#00BA00] max-[430px]:hidden"
+											id="free"
+											class="- absolute -top-1 left-full flex w-[117px] shrink-0 rounded-[5px] border border-[#00BA00] px-2 py-px font-medium text-[#00BA00] max-[430px]:hidden"
 										>
 											1 month free
 										</span>
@@ -957,7 +958,7 @@
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF] group-[.active]:px-[39px] group-[.active]:pt-[46px] group-[.active]:pb-[31px]"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -990,7 +991,7 @@
 								>
 									<div class="overflow-hidden">
 										<div
-											class="p-6 pt-0 pr-20 pl-[39px] text-lg text-[#4C4D50] max-sm:pr-10 max-sm:text-base"
+											class="p-6 pt-0 pr-20 text-lg text-[#4C4D50] max-sm:pr-10 max-sm:text-base"
 										>
 											Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 											Autem, minus? Lorem ipsum, dolor sit amet consectetur
@@ -1005,14 +1006,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1022,7 +1022,6 @@
 									<!-- Icon -->
 									<div class="flex">
 										<!-- Arrow Icon -->
-
 										<svg
 											class="accordion-img transition-transform duration-300 group-[.active]:rotate-180"
 											xmlns="http://www.w3.org/2000/svg"
@@ -1042,7 +1041,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1061,14 +1060,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1098,7 +1096,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1117,14 +1115,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1153,7 +1150,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1172,14 +1169,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1209,7 +1205,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1228,14 +1224,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1264,7 +1259,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1283,14 +1278,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1320,7 +1314,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1339,14 +1333,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1376,7 +1369,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1395,14 +1388,13 @@
 									</div>
 								</div>
 							</div>
-
 							<!-- Accrodion Item -->
 							<div
 								class="accordion-item group grid cursor-pointer flex-col overflow-hidden rounded-2xl border border-[rgba(224,225,224,0.90)]"
 							>
 								<!-- Accrodion Trigger -->
 								<div
-									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4"
+									class="accordion-trigger flex w-full items-center justify-between overflow-hidden bg-[#F7F8F7] px-6 py-4 transition-all group-[.active]:bg-[#EFF1EF]"
 								>
 									<span
 										class="text-xl leading-[1.4] font-medium tracking-[-0.2px] text-gray-900 group-[.active]:font-semibold group-[.active]:text-gray-950 max-sm:text-lg"
@@ -1431,7 +1423,7 @@
 
 								<!-- Accrodion Content -->
 								<div
-									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-all duration-500 group-[.active]:grid-rows-[1fr]"
+									class="accordion-content grid grid-rows-[0fr] bg-[#F7F8F7] transition-[grid-rows-[1fr]] duration-300 group-[.active]:grid-rows-[1fr] group-[.active]:bg-[#EFF1EF]"
 								>
 									<div class="overflow-hidden">
 										<div
@@ -1468,9 +1460,9 @@
 								class="mt-[70px] grid grid-cols-2 gap-x-[171px] gap-y-20 overflow-hidden max-[1420px]:gap-20 max-md:mt-10 max-md:grid-cols-1 max-md:gap-10"
 							>
 								<div class="max-w-[450px] space-y-8 max-md:max-w-full">
-									<div class="mx-auto flex gap-4 max-[480px]:flex-col">
+									<div class="mx-auto flex gap-2 max-[480px]:flex-col">
 										<img
-											class="size-14 shrink-0"
+											class="h-[53px] w-auto shrink-0"
 											src="./images/use-1.png"
 											alt="icon"
 										/>
@@ -1525,7 +1517,7 @@
 								<div class="max-w-[450px] space-y-8 max-md:max-w-full">
 									<div class="flex gap-4 max-[450px]:flex-col">
 										<img
-											class="size-14 shrink-0"
+											class="mt-2 size-10 shrink-0"
 											src="./images/use-2.png"
 											alt="icon"
 										/>
@@ -1559,7 +1551,7 @@
 								<div class="max-w-[450px] max-md:max-w-full">
 									<div class="flex gap-4 max-[480px]:flex-col">
 										<img
-											class="size-14 shrink-0"
+											class="size-12 shrink-0"
 											src="./images/use-3.png"
 											alt="icon"
 										/>
@@ -1607,16 +1599,16 @@
 					<div class="container">
 						<h2 class="text-center">Compare with others</h2>
 
-						<div class="mx-auto w-[1104px] max-w-full">
+						<div class="mx-auto w-[1106px] max-w-full">
 							<div
 								class="mx-auto mt-11 flex w-full pb-5 max-[1104px]:overflow-x-auto"
 							>
 								<!-- 1st -->
 								<div
-									class="mt-[54px] max-w-[303px] shrink-0 max-[1104px]:w-[230px] max-[480px]:w-[200px]"
+									class="mt-[54px] max-w-[300px] shrink-0 max-[1104px]:w-[230px] max-[480px]:w-[200px]"
 								>
 									<ul>
-										<li class="py-[22px] pt-[22px]">
+										<li class="py-4">
 											<p class="font-generalSans text-lg font-medium">
 												User-friendly
 											</p>
@@ -1624,7 +1616,7 @@
 										<li>
 											<img src="./images/table-divider.svg" alt="divider" />
 										</li>
-										<li class="py-[21px]">
+										<li class="py-4">
 											<p class="font-generalSans text-lg font-medium">
 												GDPR-compliant
 											</p>
@@ -1632,7 +1624,7 @@
 										<li>
 											<img src="./images/table-divider.svg" alt="divider" />
 										</li>
-										<li class="py-[21px]">
+										<li class="py-4">
 											<p class="font-generalSans text-lg font-medium">
 												Open-source
 											</p>
@@ -1640,7 +1632,7 @@
 										<li>
 											<img src="./images/table-divider.svg" alt="divider" />
 										</li>
-										<li class="py-[21px]">
+										<li class="py-4">
 											<p class="font-generalSans text-lg font-medium">
 												Difficulty scaling
 											</p>
@@ -1648,7 +1640,7 @@
 										<li>
 											<img src="./images/table-divider.svg" alt="divider" />
 										</li>
-										<li class="py-[21px]">
+										<li class="py-4">
 											<p class="font-generalSans text-lg font-medium">
 												EU-only endpoints
 											</p>
@@ -1656,7 +1648,7 @@
 										<li>
 											<img src="./images/table-divider.svg" alt="divider" />
 										</li>
-										<li class="py-[21px]">
+										<li class="py-4">
 											<p class="font-generalSans text-lg font-medium">
 												Real Human support
 											</p>
@@ -1665,33 +1657,33 @@
 								</div>
 
 								<!-- 2nd -->
-								<div class="w-[284px] shrink-0 translate-x-[28px]">
+								<div class="-ml-[28px] w-[283px] shrink-0 translate-x-[28px]">
 									<p
-										class="font-generalSans p-5 pt-[14px] text-center font-medium text-gray-900"
+										class="font-generalSans -ml-[14px] p-5 pt-3 pb-[15px] text-center font-medium text-gray-900"
 									>
 										Google reCAPTCHA
 									</p>
 									<ul
 										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-br-none bg-[#F7F8F7] pt-[14px] pr-[52px] pl-[26px]"
 									>
-										<li class="flex justify-center px-3 pb-5 text-center">
+										<li class="flex justify-center px-3 pb-[18px] text-center">
 											<img src="./images/empty.png" alt="icon" />
 										</li>
-										<li class="flex justify-center px-3 py-[22px] text-center">
+										<li class="flex justify-center px-3 py-5 text-center">
 											<p class="font-generalSans font-medium text-black">
 												Grey area (at best)
 											</p>
 										</li>
-										<li class="flex justify-center px-3 py-5 text-center">
+										<li class="flex justify-center px-3 py-4 text-center">
 											<img src="./images/empty.png" alt="icon" />
 										</li>
-										<li class="flex justify-center px-3 py-5 text-center">
+										<li class="flex justify-center px-3 py-4 text-center">
 											<img src="./images/empty.png" alt="icon" />
 										</li>
-										<li class="flex justify-center px-3 py-5 text-center">
+										<li class="flex justify-center px-3 py-4 text-center">
 											<img src="./images/empty.png" alt="icon" />
 										</li>
-										<li class="flex justify-center px-3 pt-5 text-center">
+										<li class="flex justify-center px-3 py-4 pb-5 text-center">
 											<img src="./images/empty.png" alt="icon" />
 										</li>
 									</ul>
@@ -1699,62 +1691,57 @@
 
 								<!-- 3rd -->
 								<div
-									class="relative z-10 w-[283px] shrink-0 rounded-2xl border border-[#E3E7EE]"
+									class="third relative z-10 w-[283px]! shrink-0! rounded-2xl border border-[#E3E7EE] bg-[var(--gradient)]"
 								>
 									<p
-										class="font-generalSans rounded-t-2xl bg-[#072929] px-5 py-[10px] text-center text-lg font-semibold text-white"
+										class="font-generalSans rounded-t-2xl bg-[#072929] px-5 py-[10px] text-center text-lg font-semibold tracking-[-0.54px] text-white"
 									>
 										Private Captcha
 									</p>
 									<ul
-										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] bg-white p-5"
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] bg-transparent p-5"
 									>
-										<li class="flex justify-center px-3 pb-5 text-center">
+										<li class="flex justify-center px-3 pb-4 text-center">
 											<img
-												class="size-[28px]"
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
 										</li>
 
-										<li class="flex justify-center px-3 py-5 text-center">
+										<li class="flex justify-center px-3 py-4 text-center">
 											<img
-												class="size-[28px]"
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
 										</li>
-										<li class="flex justify-center px-3 py-5 text-center">
+										<li
+											class="flex justify-center px-3 py-4 pb-[18px] text-center"
+										>
 											<img
-												class="size-[28px]"
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
 										</li>
-										<li class="flex justify-center px-3 py-5 text-center">
+										<li class="flex justify-center px-3 py-4 text-center">
 											<img
-												class="size-[28px]"
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
 										</li>
-										<li class="flex justify-center px-3 pt-5 text-center">
+										<li class="flex justify-center px-3 py-4 pb-5 text-center">
 											<img
-												class="size-[28px]"
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
 										</li>
-										<li class="flex justify-center px-3 pt-5 text-center">
+										<li class="flex justify-center px-3 py-4 pb-0 text-center">
 											<img
-												class="size-[28px]"
-												src="./images/empty-checkmark.png"
-												alt="icon"
-											/>
-										</li>
-										<li class="flex justify-center px-3 pt-5 text-center">
-											<img
-												class="size-[28px]"
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
@@ -1763,47 +1750,45 @@
 								</div>
 
 								<!-- 4th -->
-								<div class="z-0 w-[284px] shrink-0 -translate-x-[28px]">
+								<div class="z-0 w-[283px] shrink-0 -translate-x-[28px]">
 									<p
-										class="font-generalSans p-5 pt-[14px] text-center font-medium text-gray-900"
+										class="font-generalSans ml-[14px] p-5 pt-3 pb-[15px] text-center font-medium text-gray-900"
 									>
 										Friendly Captcha
 									</p>
 									<ul
-										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-bl-none bg-[#F7F8F7] p-5"
+										class="divide-y divide-[rgba(176,181,189,0.20)] rounded-[15px] rounded-bl-none bg-[#F7F8F7] p-5 pt-[14px] pr-[26px] pl-[52px]"
 									>
-										<li class="flex justify-center px-3 pb-5 text-center">
+										<li class="flex justify-center px-3 pb-[18px] text-center">
 											<img
-												class="size-[28px]"
+												class="size-[29px]"
+												src="./images/empty-checkmark.png"
+												alt="icon"
+											/>
+										</li>
+										<li class="flex justify-center px-3 py-4 text-center">
+											<img
+												class="size-[29px]"
 												src="./images/empty-checkmark.png"
 												alt="icon"
 											/>
 										</li>
 										<li class="flex justify-center px-3 py-5 text-center">
-											<img
-												class="size-[28px]"
-												src="./images/empty-checkmark.png"
-												alt="icon"
-											/>
-										</li>
-										<li class="flex justify-center px-3 py-[22px] text-center">
 											<p class="font-generalSans font-medium text-black">
 												Only widget
 											</p>
 										</li>
-										<li class="flex justify-center px-3 py-[22px] text-center">
+										<li class="flex justify-center px-3 py-5 text-center">
 											<p class="font-generalSans font-medium text-black">
 												Enterprise tier only
 											</p>
 										</li>
-										<li class="flex justify-center px-3 py-[22px] text-center">
+										<li class="flex justify-center px-3 py-5 text-center">
 											<p class="font-generalSans font-medium text-black">
 												Enterprise tier only
 											</p>
 										</li>
-										<li
-											class="flex justify-center px-3 pt-[22px] pb-2 text-center"
-										>
+										<li class="flex justify-center px-3 pt-5 pb-0 text-center">
 											<p class="font-generalSans font-medium text-black">
 												Enterprise tier only
 											</p>
@@ -1861,7 +1846,7 @@
 			<footer class="mt-20 max-sm:mt-14">
 				<div class="container">
 					<div
-						class="mx-auto flex max-w-[1042px] justify-between gap-5 pr-[60px] pb-8 max-sm:flex-col max-sm:gap-10"
+						class="mx-auto flex max-w-[1110px] justify-between gap-5 pr-[60px] pb-8 max-sm:flex-col max-sm:gap-10"
 					>
 						<a href="#">
 							<img
@@ -1881,14 +1866,14 @@
 									<li>
 										<a
 											href="#"
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 										>
 											Documentation
 										</a>
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											Pricing
@@ -1896,7 +1881,7 @@
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											FAQ
@@ -1904,7 +1889,7 @@
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											GitHub
@@ -1922,14 +1907,14 @@
 									<li>
 										<a
 											href="#"
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 										>
 											Terms and Conditions
 										</a>
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											End User Privacy Policy
@@ -1937,7 +1922,7 @@
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											Service Privacy Policy
@@ -1945,7 +1930,7 @@
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											DPA
@@ -1963,14 +1948,14 @@
 									<li>
 										<a
 											href="#"
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 										>
 											Google reCAPTCHA
 										</a>
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											hCaptcha
@@ -1978,7 +1963,7 @@
 									</li>
 									<li>
 										<a
-											class="font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
+											class="text-[15px] font-medium tracking-[0.15px] text-[#424243] capitalize transition-colors hover:text-black"
 											href="#"
 										>
 											Friendly Captcha
@@ -1990,9 +1975,9 @@
 					</div>
 
 					<div
-						class="mx-auto flex max-w-[1042px] justify-center border-t border-t-black/20 py-6"
+						class="mx-auto flex max-w-[1110px] justify-center border-t border-t-black/20 py-6"
 					>
-						<p class="text-center text-[#828282]">
+						<p class="text-center text-[15px] font-normal text-[#828282]">
 							Copyright © 2025 Private Captcha. All rights reserved.
 						</p>
 					</div>
